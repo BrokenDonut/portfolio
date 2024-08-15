@@ -1,0 +1,77 @@
+.container-about{
+    background-color: #0e293b;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .about-second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+  }
+  .about-me{
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .about-title{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+  }
+  .about-parrafo{
+    line-height: 25px;
+    width: 800px;
+  }
+  
+  .container-about img{
+    width: 40px;
+  }
+  
+  .education{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .asterisco{
+    font-size: 30px;
+    color: #00bebe;
+    margin-right: 4px;
+  }
+  .education-text p{
+    color:#a8a8a8;
+  }
+  .education-text h4{
+    font-weight: 400;
+  }
+  .formation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+  }
+  .tecnology{
+    display: flex;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .section-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin: 20px;
+  }
+  .skills-1{
+    display: flex;
+  }
+  .skills-2{
+    display: flex;
+    justify-content: center;
+  }

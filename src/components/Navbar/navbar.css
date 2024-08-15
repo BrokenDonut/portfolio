@@ -1,0 +1,49 @@
+.navbar {
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  position: fixed; /* Fija la barra de navegación en la parte superior */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que el nav quede encima de otros elementos */
+}
+
+.container-navbar {
+  padding: 20px 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > div > ul {
+  display: flex;
+}
+
+.option > a {
+  color: white;
+  text-decoration-line: none;
+  margin: 6px 10px;
+  font-size: 18px;
+  align-content: center;
+}
+
+.tittle-decor {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+}
+
+.punto {
+  color: #00bebe;
+  font-weight: 800;
+}
+
+.navbar.scrolled {
+  background: rgba(137, 247, 255, 0.041);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid white;
+}
+
+.container-navbar.scrolled {
+  padding: 10px 350px;
+}

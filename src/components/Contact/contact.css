@@ -1,0 +1,51 @@
+.container-contact{
+    display: flex;
+    justify-content: center;
+    background-color: #0e293b;
+}
+.contact-second{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+.info-tittle{
+    display: flex;
+    align-items: center;
+}
+.contact-info h3{
+    font-size: 14px;
+    font-weight: 300;
+}
+.info-icon{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.info-icon p{
+    display: flex;
+    align-items: center;
+}
+.info-icon i{
+    width: 20px;
+    color: #00a8a8;
+}
+.icon-contact{
+    padding-top: 10px;
+}
+.icon-contact a {
+    color: inherit;
+    text-decoration: none;
+  }
+.icon-contact i{
+    font-size: 35px;
+    width: 40px;
+    padding-right: 10px;
+}
+.icon-contact i:hover {
+    color: #00ffff; /* Cambia el color al hacer hover, opcional */
+  }

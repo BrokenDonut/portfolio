@@ -1,0 +1,64 @@
+.container-proyect {
+  display: flex;
+  justify-content: center;
+}
+.proyect-second {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.proyect-title {
+  text-align: center;
+  color: #ffffff;
+  line-height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.proyect-new {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 70px;
+}
+.program {
+  width: 400px;
+  background-color: #0e293b;
+  border: 1px solid #007474;
+  border-radius: 20px;
+}
+.program img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.proyect-description {
+  padding: 20px;
+  color: #ffffff;
+}
+.proyect-description h2 {
+  color: #00bebe;
+}
+.proyect-description p {
+  padding-top: 14px;
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+.button-28 a {
+  text-decoration: none;
+  color: #00ffff;
+}
+.button-28:hover a {
+  color: #000000;
+}
+.primary-title {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+}
+.sub-proyect {
+  text-align: center;
+  color: #ffffff;
+}

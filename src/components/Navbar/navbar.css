@@ -1,16 +1,16 @@
 .navbar {
   color: white;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  position: fixed; /* Fija la barra de navegación en la parte superior */
+  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Asegura que el nav quede encima de otros elementos */
+  z-index: 1000;
 }
 
 .container-navbar {
-  padding: 20px 350px;
   display: flex;
-  justify-content: space-between;
+  padding: 1rem 0rem;
+  justify-content: space-around;
 }
 
 .navbar > div > ul {
@@ -20,14 +20,14 @@
 .option > a {
   color: white;
   text-decoration-line: none;
-  margin: 6px 10px;
-  font-size: 18px;
+  margin: 0.375rem 0.625rem;
+  font-size: 1.125rem;
   align-content: center;
 }
 
 .tittle-decor {
   display: flex;
-  font-size: 22px;
+  font-size: 1.375rem;
   align-items: center;
 }
 
@@ -40,10 +40,11 @@
   background: rgba(137, 247, 255, 0.041);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  border-bottom: 0.0625rem solid white;
 }
 
 .container-navbar.scrolled {
-  padding: 10px 350px;
+  justify-content: space-around;
 }
+

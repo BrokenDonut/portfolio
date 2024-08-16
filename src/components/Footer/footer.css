@@ -1,20 +1,23 @@
-footer{
-    height: 50px;
+footer {
+    height: 3.125rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #fff;
 }
-.footer-name{
+
+.footer-name {
     display: flex;
     align-items: center;
 }
-.name{
+
+.name {
     font-weight: 800;
-    padding-left: 5px;
+    padding-left: 0.3125rem;
 }
-.footer-icon i{
+
+.footer-icon i {
     color: #00a8a8;
-    font-size: 25px;
-    padding: 0px 15px;
+    font-size: 1.5625rem;
+    padding: 0 0.9375rem;
 }

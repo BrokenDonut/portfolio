@@ -1,51 +1,61 @@
-.container-contact{
+.container-contact {
     display: flex;
     justify-content: center;
     background-color: #0e293b;
 }
-.contact-second{
-    width: 1000px;
+
+.contact-second {
+    width: 62.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     color: #fff;
 }
-.info-tittle{
+
+.info-tittle {
     display: flex;
     align-items: center;
 }
-.contact-info h3{
-    font-size: 14px;
+
+.contact-info h3 {
+    font-size: 0.875rem;
     font-weight: 300;
 }
-.info-icon{
-    padding-top: 25px;
+
+.info-icon {
+    padding-top: 1.5625rem;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 0.4375rem;
 }
-.info-icon p{
+
+.info-icon p {
     display: flex;
     align-items: center;
 }
-.info-icon i{
-    width: 20px;
+
+.info-icon i {
+    width: 1.25rem;
     color: #00a8a8;
 }
-.icon-contact{
-    padding-top: 10px;
+
+.icon-contact {
+    padding-top: 0.625rem;
 }
+
 .icon-contact a {
     color: inherit;
     text-decoration: none;
-  }
-.icon-contact i{
-    font-size: 35px;
-    width: 40px;
-    padding-right: 10px;
 }
+
+.icon-contact i {
+    font-size: 2.1875rem;
+    width: 2.5rem;
+    padding-right: 0.625rem;
+}
+
 .icon-contact i:hover {
-    color: #00ffff; /* Cambia el color al hacer hover, opcional */
-  }
+    color: #00ffff;
+}

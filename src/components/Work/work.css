@@ -2,62 +2,74 @@
   display: flex;
   justify-content: center;
 }
+
 .proyect-second {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 1000px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  width: 62.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
+
 .proyect-title {
   text-align: center;
   color: #ffffff;
-  line-height: 45px;
+  line-height: 2.8125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .proyect-new {
   display: flex;
   justify-content: space-between;
-  margin: 30px 70px;
+  margin: 1.875rem 4.375rem;
 }
+
 .program {
-  width: 400px;
+  width: 25rem;
   background-color: #0e293b;
-  border: 1px solid #007474;
-  border-radius: 20px;
+  border: 0.0625rem solid #007474;
+  border-radius: 1.25rem;
 }
+
 .program img {
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
 }
+
 .proyect-description {
-  padding: 20px;
+  padding: 1.25rem;
   color: #ffffff;
 }
+
 .proyect-description h2 {
   color: #00bebe;
 }
+
 .proyect-description p {
-  padding-top: 14px;
-  padding-bottom: 25px;
-  font-size: 14px;
+  padding-top: 0.875rem;
+  padding-bottom: 1.5625rem;
+  font-size: 0.875rem;
 }
+
 .button-28 a {
   text-decoration: none;
   color: #00ffff;
 }
+
 .button-28:hover a {
   color: #000000;
 }
+
 .primary-title {
   display: flex;
-  font-size: 22px;
+  font-size: 1.375rem;
   align-items: center;
 }
+
 .sub-proyect {
   text-align: center;
   color: #ffffff;

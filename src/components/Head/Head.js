@@ -1,3 +1,4 @@
+import Icon from './icon.jpeg'
 import './head.css'
 
 export default function Head(){
@@ -16,7 +17,7 @@ export default function Head(){
                 </div>
                 <div className="head-img">
                     <div className="container-img">
-                        <img src="/assets/icon.jpeg" alt="img"></img>
+                        <img src={Icon} alt="img"></img>
                     </div>
                 </div>
             </div>

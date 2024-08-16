@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 62.5rem; /* Ancho inicial */
+  width: 62.5rem;
 }
 
 .about-me {
@@ -135,6 +135,9 @@
   }
   .tecnology{
     padding-top: 2rem;
+  }
+  .tecnology-skills{
+    row-gap: 1.5rem;
   }
 }
 

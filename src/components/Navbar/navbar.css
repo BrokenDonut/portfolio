@@ -80,18 +80,19 @@
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
     border-bottom: 0.0625rem solid white;
-    padding-bottom: 13.5rem;
+    padding-bottom: 22rem;
   }
   .option.show{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 35%;
+    top: 29%;
     width: 89%;
     align-items: center;
   }
   .option > a{
     font-size: 1.8rem;
     text-shadow: -3px 3px 3px #000000bf;
+    padding: 0.8rem 0rem;
   }
 }

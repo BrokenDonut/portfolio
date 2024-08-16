@@ -108,5 +108,7 @@
   }
   .head-container{
     padding-top: 12.5rem;
+    padding-bottom: 0rem;
+    height: 50rem;
   }
 }

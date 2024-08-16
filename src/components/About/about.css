@@ -133,5 +133,8 @@
     width: calc(50% - 1.25rem);
     margin: 0.625rem;
   }
+  .tecnology{
+    padding-top: 2rem;
+  }
 }
 

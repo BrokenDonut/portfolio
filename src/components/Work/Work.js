@@ -16,12 +16,12 @@ export default function Work(){
                 </div>
                 <div className="proyect-new">
                     <div className="program">
-                        <img src="/assets/proyects/portadaElite.png" alt="img"></img>
+                        <img src={ElitePage} alt="img"></img>
                         <div className="proyect-description">
                             <h2>Elite Page</h2>
                             <p>Realize un rediseño de una pagina de ventas de terreno para consigo poder realizar el buen uso de CSS.</p>
                             <button className="button-28">
-                                <a href={ElitePage} target="_blank">
+                                <a href="https://github.com/BrokenDonut/Elite" target="_blank">
                                 <i className="fab fa-github"></i> Code
                                 </a>
                             </button>

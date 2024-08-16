@@ -11,7 +11,7 @@
   display: flex;
   padding: 1rem 0rem;
   justify-content: space-around;
-  align-items: center; /* Centra los elementos verticalmente */
+  align-items: center;
 }
 
 .navbar > div > ul {
@@ -70,11 +70,28 @@
   .burger-menu {
     display: flex;
   }
-  .container-navbar{
+  .container-navbar {
     justify-content: space-between;
     padding: 1rem 1.5rem;
   }
+  .navbar.menu-open {
+    background: rgba(137, 247, 255, 0.041);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    border-bottom: 0.0625rem solid white;
+    padding-bottom: 13.5rem;
+  }
+  .option.show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    width: 89%;
+    align-items: center;
+  }
+  .option > a{
+    font-size: 1.8rem;
+    text-shadow: -3px 3px 3px #000000bf;
+  }
 }
-
-
-

@@ -91,3 +91,19 @@
   width: 20.625rem;
   border-radius: 50% 27% 51% 28% / 44% 25% 57% 34%;
 }
+
+
+@media (max-width: 425px) {
+  .head-second {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+    width: 100%;
+  }
+
+  .head-text {
+    padding-right: 0;
+    text-align: center;
+    padding: 0rem 1.4rem;
+  }
+}

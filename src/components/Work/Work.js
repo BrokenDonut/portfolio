@@ -12,7 +12,7 @@ export default function Work(){
                         <h1>Projects</h1>
                         <h1 className="punto">.</h1>
                     </div>
-                    <p>Mi realizacion de trabajos como estudiante en Programacion usando diversos lengujes y frameware</p>
+                    <p className='parrafo-proyect'>Mi realizacion de trabajos como estudiante en Programacion usando diversos lengujes y frameware</p>
                 </div>
                 <div className="proyect-new">
                     <div className="program">

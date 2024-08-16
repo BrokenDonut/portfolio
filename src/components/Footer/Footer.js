@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <footer>
             <div className='footer-name'>
-              <p>Portfolio Hecho por </p>
-                <p className='name'> Ronaldo Chulluncuy</p>  
+                <p>Portfolio hecho por </p>
+                <p className='name'> Ronaldo Chulluncuy</p>
             </div>
             <div className='footer-icon'>
                 <a href="https://github.com/BrokenDonut" target="_blank" rel="noopener noreferrer">

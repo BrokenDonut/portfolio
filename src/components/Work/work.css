@@ -25,6 +25,8 @@
   display: flex;
   justify-content: space-between;
   margin: 1.875rem 4.375rem;
+  flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
 .program {
@@ -32,6 +34,8 @@
   background-color: #0e293b;
   border: 0.0625rem solid #007474;
   border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .program img {
@@ -73,4 +77,26 @@
 .sub-proyect {
   text-align: center;
   color: #ffffff;
+}
+
+@media (max-width: 425px) {
+  .proyect-second {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+
+  .proyect-new {
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .program {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .parrafo-proyect{
+    padding-top: 1rem;
+    line-height: 1.3rem;
+  }
 }

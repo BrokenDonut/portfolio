@@ -10,8 +10,10 @@ export default function Contact() {
                         <h1>Call Me</h1>
                         <h1 className="punto">.</h1>
                     </div>
-                    <h3>Cualquier consulta para trabajo o proyectos dejo mis medios </h3>
-                    <h3>de comunicacion que mas uso</h3>
+                    <div className='contact-description'>
+                        <h3>Cualquier consulta para trabajo o proyectos dejo mis medios </h3>
+                        <h3>de comunicacion que mas uso</h3>
+                    </div>
                     <div className='info-icon'>
                         <p><i className="fas fa-envelope"></i> ronaldochulluncuy@gmail.com</p>
                         <p><i className="fas fa-map-marker-alt"></i> Lima - Perú</p>

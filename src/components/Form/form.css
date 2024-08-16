@@ -44,3 +44,12 @@
     align-self: center;
     margin-top: 1.25rem;
 }
+
+@media (max-width: 425px) {
+    .container-form{
+        width: 21.8rem;
+    }
+    .form-second{
+        padding: 1.25rem 2.5rem;
+    }
+}

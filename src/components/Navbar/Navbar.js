@@ -35,10 +35,17 @@ const Navbar = () => {
                     <a href="#work">Proyectos</a>
                     <a href="#contact">Contacto</a>
                 </ul>
+                <button className="burger-menu">
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                </button>
             </div>
         </nav>
     );
 };
 
 export default Navbar;
+
+
 

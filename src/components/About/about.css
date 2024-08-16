@@ -70,6 +70,7 @@
   }
   .skills-1{
     display: flex;
+    justify-content: center;
   }
   .skills-2{
     display: flex;

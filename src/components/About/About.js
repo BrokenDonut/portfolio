@@ -1,3 +1,15 @@
+import Angular from './icon-tech/angular.webp'
+import Reacts from './icon-tech/React.webp';
+import Csharp from './icon-tech/c.png'
+import Css from './icon-tech/css.webp'
+import Github from './icon-tech/github.png'
+import Html from './icon-tech/html.png'
+import JavaScript from './icon-tech/JavaScript-logo.png'
+import MySql from './icon-tech/Mysql.png'
+import Python from './icon-tech/python.svg'
+import Spring from './icon-tech/Spring.png'
+import Sql from './icon-tech/sql.svg'
+
 import './about.css'
 
 export default function About() {
@@ -43,43 +55,47 @@ export default function About() {
                             <div className="skills">
                                 <div className="skills-1">
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/JavaScript-logo.png" alt="javascript"></img>
+                                        <img src={JavaScript} alt="javascript"></img>
                                         <h3>JavaScript</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/css.webp" alt="css"></img>
+                                        <img src={Css} alt="css"></img>
                                         <h3>CSS</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/html.png" alt="html"></img>
+                                        <img src={Html} alt="html"></img>
                                         <h3>HTML</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/python.svg" alt="python"></img>
+                                        <img src={Python} alt="python"></img>
                                         <h3>Python</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/c.png" alt="c#"></img>
+                                        <img src={Csharp} alt="c#"></img>
                                         <h3>C#</h3>
                                     </div>
                                     
                                 </div>
                                 <div className="skills-2">
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/angular.webp" alt="angular"></img>
+                                        <img src={Angular} alt="angular"></img>
                                         <h3>Angular</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/React.webp" alt="react"></img>
+                                        <img src={Reacts} alt="react"></img>
                                         <h3>React</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/Mysql.png" alt="mysql"></img>
+                                        <img src={MySql} alt="mysql"></img>
                                         <h3>MySQL</h3>
                                     </div>
                                     <div className="section-skill">
-                                        <img src="/assets/icon-tech/sql.svg" alt="sql"></img>
+                                        <img src={Sql} alt="sql"></img>
                                         <h3>SQL Server</h3>
+                                    </div>
+                                    <div className="section-skill">
+                                        <img src={Spring} alt="sql"></img>
+                                        <h3>Spring</h3>
                                     </div>
                                 </div>
                                     

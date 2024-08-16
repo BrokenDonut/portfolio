@@ -1,4 +1,5 @@
 import Icon from './icon.jpeg'
+import Cv from './Ronaldo_Chulluncuy_CV.pdf'
 import './head.css'
 
 export default function Head(){
@@ -10,7 +11,7 @@ export default function Head(){
                     <h1>Full Stack</h1>
                     <h3>Me Aficiona el diseño y creacion de aplicaiones web</h3>
                     <div className="head-botom">
-                        <a href="/assets/Ronaldo_Chulluncuy_CV.pdf" download>
+                        <a href={Cv} download>
                             <button className="button-28">CV</button>
                         </a>
                     </div>

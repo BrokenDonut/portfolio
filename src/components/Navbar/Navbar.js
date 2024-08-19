@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './navbar.css'; // Asegúrate de importar el archivo CSS
+import './navbar.css';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuState, setMenuState] = useState('close'); // Estado inicial en 'close'
 
     useEffect(() => {
         const handleScroll = () => {
@@ -23,25 +23,26 @@ const Navbar = () => {
     }, []);
 
     const handleMenuClick = () => {
-        setMenuOpen(!menuOpen);
+        setMenuState(prevState => prevState === 'open' ? 'close' : 'open');
     };
 
     return (
-        <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
+        <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${menuState === 'open' ? 'menu-open' : ''}`}>
             <div className={`container-navbar ${scrolled ? 'scrolled' : ''}`}>
                 <div className="tittle">
                     <div className="tittle-decor">
                         <h1>Ronaldo</h1><h1 className="punto">.</h1>
                     </div>
                 </div>
-                <ul className={`option ${menuOpen ? 'show' : ''}`}>
+                <ul className={`option ${menuState === 'open' ? 'show' : ''}`}>
                     <a className='option-scroll' href="#perfil">Perfil</a>
                     <a className='option-scroll' href="#about">Habilidades</a>
                     <a className='option-scroll' href="#work">Proyectos</a>
                     <a className='option-scroll' href="#contact">Contacto</a>
                 </ul>
-                <button 
-                    className={`burger-menu ${menuOpen ? 'open' : ''}`} 
+
+                <button
+                    className={`burger-menu ${menuState}`}
                     onClick={handleMenuClick}
                 >
                     <div className="bar"></div>
@@ -54,6 +55,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
 
 

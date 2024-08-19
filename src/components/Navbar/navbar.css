@@ -52,6 +52,7 @@
   border: none;
   cursor: pointer;
   padding: 0.5rem;
+  z-index: 1100;
 }
 
 .bar {
@@ -59,7 +60,30 @@
   height: 0.15rem;
   background-color: white;
   margin: 0.3rem 0;
-  transition: 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.burger-menu.open .bar:nth-child(1) {
+  transform: translateY(0.73rem) rotate(45deg);
+}
+
+.burger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .bar:nth-child(3) {
+  transform: translateY(-0.73rem) rotate(-45deg);
+}
+
+.burger-menu.close .bar:nth-child(1) {
+  transform: translateY(0) rotate(0);
+}
+
+.burger-menu.close .bar:nth-child(2) {
+  opacity: 1;
+}
+
+.burger-menu.close .bar:nth-child(3) {
+  transform: translateY(0) rotate(0);
 }
 
 @media (max-width: 425px) {
@@ -74,24 +98,35 @@
     justify-content: space-between;
     padding: 1rem 1.5rem;
   }
-  .navbar.menu-open {
+  .menu-open {
     background: rgba(137, 247, 255, 0.041);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
     border-bottom: 0.0625rem solid white;
-    padding-bottom: 22rem;
+    padding-bottom: 18rem;
+    transition: 0.6s;
   }
-  .option.show{
+  .option.show {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 29%;
+    top: 20%;
+    width: 89%;
+    align-items: center;
+    transition: 0.6s;
+  }
+  .option {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
     width: 89%;
     align-items: center;
   }
-  .option > a{
+  .option > a {
     font-size: 1.8rem;
+    font-weight: 600;
     text-shadow: -3px 3px 3px #000000bf;
     padding: 0.8rem 0rem;
   }

@@ -80,11 +80,10 @@
 .container-img {
   background-color: #01d6d6;
   border-radius: 50% 27% 51% 28% / 44% 25% 57% 34%;
-  width: 21.875rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.625rem;
+  padding: 1rem;
 }
 
 .head-img img {
@@ -107,8 +106,11 @@
     padding: 0rem 1.4rem;
   }
   .head-container{
-    padding-top: 12.5rem;
+    padding-top: 3rem;
     padding-bottom: 0rem;
     height: 50rem;
+  }
+  .head-img img {
+    width: 18rem;
   }
 }

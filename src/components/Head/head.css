@@ -22,7 +22,7 @@
   color: #ffffff;
 }
 
-.head-text h1 {
+.Typewriter {
   color: #00ffff;
   font-size: 4.0625rem;
   font-weight: 800;
@@ -90,7 +90,32 @@
   width: 20.625rem;
   border-radius: 50% 27% 51% 28% / 44% 25% 57% 34%;
 }
-
+@media (max-width: 1024px) {
+  .head-text {
+    padding-right: 3rem;
+  }
+  .head-container{
+    padding-top: 10 rem;
+  }
+}
+@media (max-width: 768px) {
+  .head-second {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+    width: 100%;
+  }
+  .head-text {
+    padding-right: 0;
+    text-align: center;
+    padding: 0rem 1.4rem;
+  }
+  .head-container{
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    height: 50rem;
+  }
+}
 
 @media (max-width: 425px) {
   .head-second {

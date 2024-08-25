@@ -1,94 +1,117 @@
 .container-contact {
-    display: flex;
-    justify-content: center;
-    background-color: #0e293b;
+  display: flex;
+  justify-content: center;
+  background-color: #0e293b;
 }
 
 .contact-second {
-    width: 62.5rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    color: #fff;
+  width: 62.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #fff;
 }
 
 .info-tittle {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .contact-info h3 {
-    font-size: 0.875rem;
-    font-weight: 300;
+  font-size: 0.875rem;
+  font-weight: 300;
 }
 
 .info-icon {
-    padding-top: 1.5625rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4375rem;
+  padding-top: 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4375rem;
 }
 
 .info-icon p {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .info-icon i {
-    width: 1.25rem;
-    color: #00a8a8;
+  width: 1.25rem;
+  color: #00a8a8;
 }
 
 .icon-contact {
-    padding-top: 0.625rem;
+  padding-top: 0.625rem;
 }
 
 .icon-contact a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .icon-contact i {
-    font-size: 2.1875rem;
-    width: 2.5rem;
-    padding-right: 0.625rem;
+  font-size: 2.1875rem;
+  width: 2.5rem;
+  padding-right: 0.625rem;
 }
 
 .icon-contact i:hover {
-    color: #00ffff;
+  color: #00ffff;
 }
-  
-  @media (max-width: 425px) {
-    .contact-second {
-      padding: 2rem 1rem;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-    }
-    .contact-info{
-        padding-bottom: 1.8rem;
-    }
-    .info-tittle {
-      margin-bottom: 1rem;
-      justify-content: center;
-    }
-    
-    .contact-description{
-        text-align: center;
-    }
-    .info-icon {
-      gap: 0.75rem;
-      align-items: center;
-    }
-  
-    .icon-contact {
-      gap: 1rem;
-    }
-  
-    .icon-contact i {
-      font-size: 1.75rem;
-    }
+
+@media (max-width: 768px) {
+  .contact-second {
+    padding: 3rem 4rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
-  
+  .contact-info {
+    padding-bottom: 1.8rem;
+  }
+  .info-tittle {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .contact-description {
+    text-align: center;
+  }
+  .info-icon {
+    gap: 0.75rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-second {
+    padding: 2rem 1rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info {
+    padding-bottom: 1.8rem;
+  }
+  .info-tittle {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .contact-description {
+    text-align: center;
+  }
+  .info-icon {
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .icon-contact {
+    gap: 1rem;
+  }
+
+  .icon-contact i {
+    font-size: 1.75rem;
+  }
+}

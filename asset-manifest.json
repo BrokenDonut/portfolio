@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.46919252.css",
-    "main.js": "/portfolio/static/js/main.d2e81200.js",
+    "main.css": "/portfolio/static/css/main.c8cc5147.css",
+    "main.js": "/portfolio/static/js/main.ec866dc6.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/portadaVerduras.png": "/portfolio/static/media/portadaVerduras.dc587ed4d9891f178c95.png",
+    "static/media/portadaSeguro.png": "/portfolio/static/media/portadaSeguro.adf0fac393bee16ddd82.png",
     "static/media/portadaElite.png": "/portfolio/static/media/portadaElite.23854e40c2ca0333ff55.png",
     "static/media/icon.jpeg": "/portfolio/static/media/icon.c28fd5192435c9c21102.jpeg",
+    "static/media/moreElites.png": "/portfolio/static/media/moreElites.7f8af260a6512dd24ed4.png",
+    "static/media/verduras2.png": "/portfolio/static/media/verduras2.a17b35fb691a6072d73a.png",
+    "static/media/verduras1.png": "/portfolio/static/media/verduras1.85ebc3ce2d8dea1f6fec.png",
+    "static/media/moreElite.png": "/portfolio/static/media/moreElite.60ee110c7fc541fcde29.png",
+    "static/media/verduras3.png": "/portfolio/static/media/verduras3.695f4acfaa760d2be66a.png",
+    "static/media/Seguro1.png": "/portfolio/static/media/Seguro1.d50252745653492c7457.png",
     "static/media/c.png": "/portfolio/static/media/c.dcfd7cba519fc03651fb.png",
     "static/media/Ronaldo_Chulluncuy_CV.pdf": "/portfolio/static/media/Ronaldo_Chulluncuy_CV.4fe599e5e04511298583.pdf",
     "static/media/portadaTransporte.png": "/portfolio/static/media/portadaTransporte.1d5a7a862d1686202785.png",
+    "static/media/Seguro2.png": "/portfolio/static/media/Seguro2.1d9395f7d2d95a6cdbb4.png",
+    "static/media/crudTransporte.png": "/portfolio/static/media/crudTransporte.ba1bb1c39fa24e147f2a.png",
     "static/media/Spring.png": "/portfolio/static/media/Spring.001bb6f05f859c96af0d.png",
+    "static/media/loginTransporte.png": "/portfolio/static/media/loginTransporte.26cec1e148573e95a94e.png",
     "static/media/sql.svg": "/portfolio/static/media/sql.d8960239462c3866a8b8fa70cab83b00.svg",
     "static/media/Mysql.png": "/portfolio/static/media/Mysql.a04abbf76b39676bc4d9.png",
     "static/media/React.webp": "/portfolio/static/media/React.2a0cac33f155e4a27216.webp",
@@ -17,12 +28,12 @@
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/python.svg": "/portfolio/static/media/python.630499c0982f833e853cb28527aa45a4.svg",
     "index.html": "/portfolio/index.html",
-    "main.46919252.css.map": "/portfolio/static/css/main.46919252.css.map",
-    "main.d2e81200.js.map": "/portfolio/static/js/main.d2e81200.js.map",
+    "main.c8cc5147.css.map": "/portfolio/static/css/main.c8cc5147.css.map",
+    "main.ec866dc6.js.map": "/portfolio/static/js/main.ec866dc6.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46919252.css",
-    "static/js/main.d2e81200.js"
+    "static/css/main.c8cc5147.css",
+    "static/js/main.ec866dc6.js"
   ]
 }

@@ -26,7 +26,7 @@
   justify-content: space-between;
   margin: 1.875rem 4.375rem;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 3rem;
 }
 
 .program {
@@ -77,6 +77,19 @@
 .sub-proyect {
   text-align: center;
   color: #ffffff;
+}
+.image-transition {
+  transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  height: auto;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0.1;
 }
 
 @media (max-width: 768px) {

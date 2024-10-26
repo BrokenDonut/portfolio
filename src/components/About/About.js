@@ -45,7 +45,7 @@ export default function About() {
                                 <p>CoderHouse</p>
                                 <p>2022 - 2023</p>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div className="tecnology">
@@ -73,7 +73,7 @@ export default function About() {
                                         <img src={Csharp} alt="c#"></img>
                                         <h3>C#</h3>
                                     </div>
-                                    
+
                                 </div>
                                 <div className="skills-2">
                                     <div className="section-skill">
@@ -97,8 +97,20 @@ export default function About() {
                                         <h3>Spring</h3>
                                     </div>
                                 </div>
-                                    
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="timeline">
+                        <div className="event">
+                            <div className="event-content">
+                                <h3>Desarrollador web Junior - RR PRIME SAC</h3>
+                                <p>Lima 02-2024 / 09-2024</p>
+                                <p className='content-p'>Como Desarrollador Web Junior en la empresa, mis funciones principales incluyeron el mantenimiento del sitio web, la implementación de diseños atractivos y funcionales, y la corrección de errores para asegurar una experiencia de usuario óptima.</p>
+                                <p>También colaboré en proyectos de desarrollo del sistema CRM, contribuyendo con ideas y soluciones innovadoras. Durante mi permanencia, demostré responsabilidad, honestidad y dedicación en todas las tareas que se me encomendaron.</p>
+                            </div>
+                            <div className="event-date">2024</div>
                         </div>
                     </div>
                 </div>

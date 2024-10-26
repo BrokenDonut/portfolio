@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fe351b34.css",
+    "main.css": "/portfolio/static/css/main.cae8a908.css",
     "main.js": "/portfolio/static/js/main.9d876689.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/portadaVerduras.png": "/portfolio/static/media/portadaVerduras.dc587ed4d9891f178c95.png",
@@ -28,12 +28,12 @@
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/python.svg": "/portfolio/static/media/python.630499c0982f833e853cb28527aa45a4.svg",
     "index.html": "/portfolio/index.html",
-    "main.fe351b34.css.map": "/portfolio/static/css/main.fe351b34.css.map",
+    "main.cae8a908.css.map": "/portfolio/static/css/main.cae8a908.css.map",
     "main.9d876689.js.map": "/portfolio/static/js/main.9d876689.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe351b34.css",
+    "static/css/main.cae8a908.css",
     "static/js/main.9d876689.js"
   ]
 }

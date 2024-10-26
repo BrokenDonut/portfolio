@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8cc5147.css",
-    "main.js": "/portfolio/static/js/main.ec866dc6.js",
+    "main.css": "/portfolio/static/css/main.fe351b34.css",
+    "main.js": "/portfolio/static/js/main.9d876689.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/portadaVerduras.png": "/portfolio/static/media/portadaVerduras.dc587ed4d9891f178c95.png",
+    "static/media/Ronaldo_Chulluncuy_CV.pdf": "/portfolio/static/media/Ronaldo_Chulluncuy_CV.0a16cf923e7b7f85d13d.pdf",
     "static/media/portadaSeguro.png": "/portfolio/static/media/portadaSeguro.adf0fac393bee16ddd82.png",
     "static/media/portadaElite.png": "/portfolio/static/media/portadaElite.23854e40c2ca0333ff55.png",
     "static/media/icon.jpeg": "/portfolio/static/media/icon.c28fd5192435c9c21102.jpeg",
@@ -14,7 +15,6 @@
     "static/media/verduras3.png": "/portfolio/static/media/verduras3.695f4acfaa760d2be66a.png",
     "static/media/Seguro1.png": "/portfolio/static/media/Seguro1.d50252745653492c7457.png",
     "static/media/c.png": "/portfolio/static/media/c.dcfd7cba519fc03651fb.png",
-    "static/media/Ronaldo_Chulluncuy_CV.pdf": "/portfolio/static/media/Ronaldo_Chulluncuy_CV.4fe599e5e04511298583.pdf",
     "static/media/portadaTransporte.png": "/portfolio/static/media/portadaTransporte.1d5a7a862d1686202785.png",
     "static/media/Seguro2.png": "/portfolio/static/media/Seguro2.1d9395f7d2d95a6cdbb4.png",
     "static/media/crudTransporte.png": "/portfolio/static/media/crudTransporte.ba1bb1c39fa24e147f2a.png",
@@ -28,12 +28,12 @@
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/python.svg": "/portfolio/static/media/python.630499c0982f833e853cb28527aa45a4.svg",
     "index.html": "/portfolio/index.html",
-    "main.c8cc5147.css.map": "/portfolio/static/css/main.c8cc5147.css.map",
-    "main.ec866dc6.js.map": "/portfolio/static/js/main.ec866dc6.js.map",
+    "main.fe351b34.css.map": "/portfolio/static/css/main.fe351b34.css.map",
+    "main.9d876689.js.map": "/portfolio/static/js/main.9d876689.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8cc5147.css",
-    "static/js/main.ec866dc6.js"
+    "static/css/main.fe351b34.css",
+    "static/js/main.9d876689.js"
   ]
 }
